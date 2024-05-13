@@ -1,0 +1,7 @@
+body {
+  font-family: Arial, sans-serif;  /* Set the default font */
+  margin: 20px;                  /* Add margin around the body */
+  color: #333;
+  display: flex;
+                    /* Set the default text color */
+}
