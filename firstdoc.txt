@@ -2,13 +2,12 @@
         <title>
                 points table
         </title>
-
-                <h1> KKR on 1st </h1>
-                <h6> rcb on last </h6>
+        
 
                 <body>
 
-                v5 ipl     2024
+                v6
+                <h1 style="background-color:blue;" > KKR on 1st </h1>
 
                 </body>
 </html>
