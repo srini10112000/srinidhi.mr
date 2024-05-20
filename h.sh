@@ -3,7 +3,7 @@
 #
 x=(whoami)
 
-if [[ $x -eq  centos ]]
+if [ $x -eq  centos ]]
 then
 	echo "root user is correct"
 
