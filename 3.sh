@@ -1,8 +1,8 @@
 #!/bin/bash
 
-marks=100
+mark=100
 
-if [[ $marks -gt 50 ]]
+if [[ $mark -gt 50 ]]
 then
 
 	echo "pass"
