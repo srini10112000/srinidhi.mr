@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    
+    environment{
+        name="srini"
+        team ="kkr"
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                sh '''
+                ls -lrt
+                date
+                echo $name
+                echo $team
+                '''
+            }
+        }
+    }
+}
