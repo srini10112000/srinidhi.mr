@@ -1,0 +1,26 @@
+---
+- name : install nginx webserver and  run html
+  hosts: all
+  become: true
+  tasks:
+  - name: install nginx
+    apt:
+      update_cache: yes
+  - name: install nginx package
+    apt:
+      name: nginx
+      state: present
+  - name: enable nginx service
+    service:
+      name: nginx
+      state: restarted
+      enabled: yes
+
+  tasks:
+  - name: copy files
+    copy:
+      src: index.html
+      dest: /home/ubuntu/
+      owner: root
+      group: root
+      mode: 0644
